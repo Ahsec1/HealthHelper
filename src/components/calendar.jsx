@@ -7,12 +7,12 @@ import { Badge } from '@mui/material';
 
 function calendar() {
   return (
-    <div className= 'absolute'>
-        <LocalizationProvider dateAdapter={AdapterDateFns}>
-            <DateCalendar showDaysOutsideCurrentMonth></DateCalendar>
-        </LocalizationProvider>
+    <div className="flex items-center justify-center h-screen scale-120">
+      <LocalizationProvider dateAdapter={AdapterDateFns} >
+        <DateCalendar  showDaysOutsideCurrentMonth></DateCalendar>
+      </LocalizationProvider>
     </div>
-  )
+  );
 }
 
 export default calendar
