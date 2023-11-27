@@ -13,7 +13,7 @@ const Register = () => {
           Create An Account
         </div>
         <div className="relative text-[41.71px] leading-[21.45px] font-light inline-block w-[1380.1px] h-[44.3px] shrink-0">
-          Please fill in the appropriate details to create your account
+          Please fill in the appropriate details to create your accounts
         </div>
         <div className="relative w-[1097.6px] h-[119.9px]">
           <div className="absolute top-[calc(50%_-_59.95px)] left-[calc(50%_-_548.8px)] leading-[21.45px] font-semibold inline-block w-[89.4px] h-[19.5px]">
